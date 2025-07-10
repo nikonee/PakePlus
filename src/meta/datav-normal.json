@@ -1,0 +1,75 @@
+{
+  "layout": {
+    "gap": "10px",
+    "padding": "10px",
+    "gridTemplateRows": "1fr 1fr 1fr",
+    "gridTemplateColumns": "1fr 2fr 1fr",
+    "gridTemplateAreas": [
+      "HealthState HeatMap DeviceFocus",
+      "DeviceState HeatMap DeviceFocus",
+      "LabOverview AlarmIndex FaultType"
+    ]
+  },
+  "components": [
+    {
+      "name": "HealthState",
+      "title": "健康状态总览",
+      "settings": {
+        "showIcon": true,
+        "refreshInterval": 60000
+      }
+    },
+    {
+      "name": "DeviceState",
+      "title": "装置状态总览",
+      "settings": {
+        "showIcon": true,
+        "refreshInterval": 60000
+      }
+    },
+    {
+      "name": "LabOverview",
+      "title": "实验室总览",
+      "settings": {
+        "showIcon": true,
+        "refreshInterval": 60000
+      }
+    },
+    {
+      "name": "HeatMap",
+      "title": "三维热力地图",
+      "settings": {
+        "showIcon": true,
+        "refreshInterval": 60000,
+        "autoRotate": true
+      }
+    },
+    {
+      "name": "AlarmIndex",
+      "title": "实时运行指标",
+      "settings": {
+        "showIcon": true,
+        "refreshInterval": 30000,
+        "maxItems": 20
+      }
+    },
+    {
+      "name": "DeviceFocus",
+      "title": "重点关注设备",
+      "settings": {
+        "showIcon": true,
+        "refreshInterval": 60000,
+        "autoSwitch": true,
+        "switchInterval": 10000
+      }
+    },
+    {
+      "name": "FaultType",
+      "title": "故障类型统计",
+      "settings": {
+        "showIcon": true,
+        "refreshInterval": 60000
+      }
+    }
+  ]
+}
