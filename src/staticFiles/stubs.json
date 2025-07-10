@@ -1,0 +1,209 @@
+{
+  "stubs": [
+    {
+      "id": "1",
+      "name": "上海市",
+      "address": "http://10.17.28.10:7001/transfCAG/services/CAGTransfService",
+      "remark": "无"
+    },
+    {
+      "id": "2",
+      "name": "安徽省",
+      "address": "http://10.17.28.10:7001/transfCAG/services/CAGTransfService",
+      "remark": "无"
+    },
+    {
+      "id": "3",
+      "name": "北京市",
+      "address": "http://172.242.0.2:8001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "4",
+      "name": "甘肃省",
+      "address": "http://10.212.35.44:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "5",
+      "name": "广西省",
+      "address": "http://10.194.73.37:8081/ADS4000/services/CAGTransfService",
+      "remark": "广西I2报文格式特殊要求"
+    },
+    {
+      "id": "6",
+      "name": "河北省",
+      "address": "http://10.122.6.152/TRANSFCAG/services/CAGAccessService",
+      "remark": "河北有部分地区为翼北范围"
+    },
+    {
+      "id": "7",
+      "name": "翼北地区",
+      "address": "http://10.118.82.132:8090/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "8",
+      "name": "河南省",
+      "address": "http://10.17.28.10:7001/transfCAG/services/CAGTransfService",
+      "remark": "无"
+    },
+    {
+      "id": "9",
+      "name": "黑龙江省",
+      "address": "http://10.166.209.242:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "10",
+      "name": "湖北省",
+      "address": "http://10.228.7.25:6101/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "11",
+      "name": "吉林省",
+      "address": "http://10.164.8.241:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "12",
+      "name": "江苏省",
+      "address": "http://bdcag.js.sgcc.com.cn:7001/I2_TRANSFCAG/services/I2DataWebservice?wsdl",
+      "remark": "请注意是否进行江地区特殊配置"
+    },
+    {
+      "id": "13",
+      "name": "江西省",
+      "address": "http://10.234.235.12:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "14",
+      "name": "辽宁省",
+      "address": "http://10.162.211.23/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "15",
+      "name": "蒙东地区",
+      "address": "http://10.1.118.47:8090/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "16",
+      "name": "内蒙古自治区",
+      "address": "http://10.126.24.19:9080/CAGWebService/services/CAGTransfService.CAGTransfServiceHttpSoap12Endpoint/",
+      "remark": "要求特殊,请使用内蒙地区配置"
+    },
+    {
+      "id": "17",
+      "name": "宁夏回族自治区",
+      "address": "http://10.217.4.163:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "18",
+      "name": "青海省",
+      "address": "http://10.215.135.60:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "19",
+      "name": "新疆维吾尔自治区",
+      "address": "http://10.218.7.109:27001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "20",
+      "name": "山东省",
+      "address": "http://10.141.2.134:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "21",
+      "name": "山西省",
+      "address": "http://10.125.235.25:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "22",
+      "name": "陕西省",
+      "address": "http://10.208.15.24:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "23",
+      "name": "四川省",
+      "address": "http://10.176.3.64:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "24",
+      "name": "天津省",
+      "address": "http://10.120.6.217:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "25",
+      "name": "重庆市110KV及以下电压等级使用",
+      "address": "http://10.185.8.111:6001/CACService/services/CACService",
+      "remark": "无"
+    },
+    {
+      "id": "26",
+      "name": "重庆市220KV及以上电压等级使用",
+      "address": "http://10.185.58.178:6001/CACService/services/CACService",
+      "remark": "这个地址目前未用过，请确认再进行使用"
+    },
+    {
+      "id": "27",
+      "name": "本地测试",
+      "address": "http://10.17.28.5:7001/transfCAG/services/CAGTransfService?wsdl",
+      "remark": "本地CAG服务器测试用接口",
+      "address2": "http://10.17.28.5:7001/transfCAG/services/CAGTransfService?wsdl"
+    },
+    {
+      "id": "28",
+      "name": "特殊预留",
+      "address": "http://10.164.8.241:7001/TRANSFCAG/services/CAGAccessService",
+      "remark": "无"
+    },
+    {
+      "id": "29",
+      "name": "新疆数据集成",
+      "address": "http://42.192.114.208:8085/transfCAG/services/CAGTransfService?wsdl",
+      "remark": "无"
+    },
+    {
+      "id": "30",
+      "name": "上海测试",
+      "address": "http://10.11.15.50:8080/cag/CAGservices",
+      "remark": "无"
+    },
+    {
+      "id": "31",
+      "name": "重庆市2019",
+      "address": "http://10.17.28.10:7001/transfCAG/services/CAGTransfService",
+      "remark": "重庆2019年新接口"
+    },
+    {
+      "id": "32",
+      "name": "四川非标I2接口",
+      "address": "http://73.13.0.242:6001/CACService/services/CACService",
+      "remark": "四川非标I2接口"
+    },
+    {
+      "id": "33",
+      "name": "重庆市2016年接口",
+      "address": "http://192.168.7.10:6001/CACService/services/CACService",
+      "remark": "重庆市2016年接口"
+    },
+    {
+      "id": "34",
+      "name": "重庆市北公司2023",
+      "address": "http://73.33.2.2:6001/CACService/services/CACService",
+      "remark": "重庆市北公司2023"
+    }
+  ]
+}
