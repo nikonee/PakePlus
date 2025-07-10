@@ -1,32 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="styles.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>PakePlus App</title>
-        <script type="module" src="/main.js" defer></script>
-    </head>
+<!doctype html>
+<html lang="zh" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-DNS-Prefetch-Control" content="on" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- <link rel="icon" href="/favicon.ico" /> -->
 
-    <body>
-        <main class="container">
-            <h1>Welcome to PakePlus</h1>
-            <form class="row" id="greet-form">
-                <input id="inputValue" placeholder="Enter a something..." />
-            </form>
-            <div class="resultBox">
-                <span>result: </span>
-                <span id="result"></span>
-            </div>
-            <div class="invokeBox">
-                <button id="openUrl">open_url_browser</button>
-                <button id="openUrlNew">open_url_new</button>
-                <button id="runCommand">run_command</button>
-                <button id="downloadFile">download_file</button>
-                <button id="getExeDir">get_exe_dir</button>
-                <button id="getEnvVar">get_env_var</button>
-                <button id="findPort">find_port</button>
-            </div>
-        </main>
-    </body>
+    <script src="./config.js"></script>
+    <script src="./meta/meta.js"></script>
+
+    <title></title>
+    <script type="module" crossorigin src="./assets/index-CTBb4ZkS.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DNR-gxQs.css">
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="./dga/iconfont.js"></script>
+    <script src="./raphael/raphael.min.js"></script>
+    <script src="./iconfont/iconfont.basic.js"></script>
+    <script src="./iconfont/iconfont.filled.js"></script>
+
+    <script src="./ztree/jquery-1.4.4.min.js"></script>
+    <script src="./ztree/jquery.ztree.all.js"></script>
+    <script src="./ztree/jquery.ztree.exhide.min.js"></script>
+  </body>
 </html>
