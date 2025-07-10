@@ -9,7 +9,7 @@ window.meta = {
     appraisal: false,
     user_name: '操作员',
     server_ip: '10.17.28.17',
-    server_port: 8443,
+    server_url: 'https://10.17.28.17:8443',
     menu_event: 'dblclick',
     menu_radius: 750,
     menu_timeout: 5000,
